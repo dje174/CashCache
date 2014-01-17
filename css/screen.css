@@ -1,0 +1,332 @@
+/* line 17, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+/* line 103, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+/* line 32, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+/* line 5, ../scss/screen.scss */
+html {
+  background-image: url(../img/squared_metal.png); }
+
+/* line 9, ../scss/screen.scss */
+body {
+  width: 100%;
+  font: 18px/1.5 "Lato"; }
+/* line 12, ../scss/screen.scss */
+body a {
+  color: #d13f3e;
+  text-decoration: none; }
+/* line 15, ../scss/screen.scss */
+body a:hover {
+  color: #9d2625;
+  text-decoration: underline; }
+/* line 20, ../scss/screen.scss */
+body nav {
+  background-color: #3eb8d2;
+  border-bottom: 1px solid #3a3a3a; }
+/* line 23, ../scss/screen.scss */
+body nav #logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+/* line 28, ../scss/screen.scss */
+body nav ul li {
+  float: right;
+  width: 4em;
+  height: 2em;
+  padding: 1em 0 0.5em 0; }
+/* line 34, ../scss/screen.scss */
+body nav ul #facebook:hover {
+  content: url(../img/facebookHover.png); }
+/* line 37, ../scss/screen.scss */
+body nav ul #twitter:hover {
+  content: url(../img/twitterHover.png); }
+/* line 40, ../scss/screen.scss */
+body nav ul #about:hover {
+  content: url(../img/aboutHover.png); }
+/* line 45, ../scss/screen.scss */
+body .bankInfos {
+  text-align: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+/* line 48, ../scss/screen.scss */
+body .bankInfos h1 {
+  background-color: #34495e;
+  color: white;
+  padding: 0.5em 1em;
+  position: relative; }
+/* line 53, ../scss/screen.scss */
+body .bankInfos h1 .refresh {
+  position: relative;
+  left: 0em;
+  top: 0.35em; }
+/* line 59, ../scss/screen.scss */
+body .bankInfos .numberOfBanks {
+  background-color: #3eb8d2;
+  color: #3a3a3a;
+  padding: 0.5em 0; }
+/* line 64, ../scss/screen.scss */
+body .bankInfos ul {
+  background-color: white; }
+/* line 67, ../scss/screen.scss */
+body .bankInfos ul .seeAll {
+  color: #d13f3e; }
+/* line 69, ../scss/screen.scss */
+body .bankInfos ul .seeAll:before {
+  content: url(../img/plus.png);
+  margin-right: 0.3em; }
+/* line 74, ../scss/screen.scss */
+body .bankInfos ul .banque {
+  color: #3a3a3a;
+  border-top: 1px solid #3a3a3a;
+  position: relative; }
+/* line 78, ../scss/screen.scss */
+body .bankInfos ul .banque img {
+  position: relative;
+  top: 0.25em;
+  -top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+/* line 83, ../scss/screen.scss */
+body .bankInfos ul .banque .bankDetails {
+  float: left;
+  width: 45%;
+  padding: 0 0.25em; }
+/* line 88, ../scss/screen.scss */
+body .bankInfos ul .banque span {
+  color: #3eb8d2;
+  float: left;
+  width: 100%; }
+/* line 93, ../scss/screen.scss */
+body .bankInfos ul .banque .address {
+  float: left;
+  width: 45%;
+  font-size: 16px;
+  color: #6b6b6b;
+  padding: 0.75em 0.25em; }
+/* line 103, ../scss/screen.scss */
+body .CCInfos {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+/* line 107, ../scss/screen.scss */
+body .CCInfos h1 {
+  background-color: #34495e;
+  color: white;
+  padding: 0.5em 1em; }
+/* line 112, ../scss/screen.scss */
+body .CCInfos .about {
+  background-color: white;
+  border-top: 1px solid #3a3a3a;
+  padding: 1em 0.75em; }
+/* line 116, ../scss/screen.scss */
+body .CCInfos .about .who {
+  display: block;
+  font-size: 16px; }
+
+/* line 124, ../scss/screen.scss */
+nav:after, nav > ul:after, .banque:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  /* line 2, ../scss/_mediaQueries.scss */
+  nav {
+    height: 10em; }
+  /* line 4, ../scss/_mediaQueries.scss */
+  nav ul {
+    width: 13em;
+    margin: 0 auto;
+    padding-top: 5em; }
+
+  /* line 11, ../scss/_mediaQueries.scss */
+  .bankInfos {
+    margin: 10em auto 0 auto;
+    width: 15em;
+    height: 11em;
+    overflow: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+  /* line 19, ../scss/_mediaQueries.scss */
+  .bankInfos h1 {
+    font-size: 14px;
+    text-transform: uppercase; }
+  /* line 23, ../scss/_mediaQueries.scss */
+  .bankInfos h3 {
+    font-size: 15px; }
+
+  /* line 27, ../scss/_mediaQueries.scss */
+  .CCInfos {
+    margin-top: 9em;
+    width: 100%; }
+
+  /* line 31, ../scss/_mediaQueries.scss */
+  #logo img {
+    margin: 1em auto 0 auto; }
+
+  /* line 34, ../scss/_mediaQueries.scss */
+  #gmap {
+    background: #ccc;
+    height: 500px; } }
+@media only screen and (min-width: 500px) and (max-width: 750px) {
+  /* line 41, ../scss/_mediaQueries.scss */
+  nav {
+    height: 6.5em; }
+  /* line 43, ../scss/_mediaQueries.scss */
+  nav ul {
+    padding: 1.25em 1em 0 0; }
+
+  /* line 47, ../scss/_mediaQueries.scss */
+  .bankInfos {
+    margin: 0 auto;
+    width: 40%;
+    float: left;
+    height: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+  /* line 56, ../scss/_mediaQueries.scss */
+  .bankInfos ul li {
+    padding: 0.4em 0 0.4em 0; }
+
+  /* line 61, ../scss/_mediaQueries.scss */
+  .CCInfos {
+    width: 25em;
+    margin: 7.5em auto 3em auto; }
+
+  /* line 65, ../scss/_mediaQueries.scss */
+  #logo img {
+    margin: 1.25em 0 0 0.5em; }
+
+  /* line 68, ../scss/_mediaQueries.scss */
+  #gmap {
+    background: #ccc;
+    height: 600px;
+    width: 60%;
+    float: left; } }
+@media only screen and (min-width: 750px) and (max-width: 1500px) {
+  /* line 77, ../scss/_mediaQueries.scss */
+  .bankInfos {
+    width: 25%;
+    float: left;
+    height: 800px;
+    overflow: hidden;
+    overflow-y: scroll; }
+  /* line 84, ../scss/_mediaQueries.scss */
+  .bankInfos ul li {
+    padding-bottom: 0.2em; }
+
+  /* line 89, ../scss/_mediaQueries.scss */
+  #logo img {
+    margin: 1em auto 0 auto; }
+
+  /* line 92, ../scss/_mediaQueries.scss */
+  nav {
+    height: 6.5em; }
+  /* line 94, ../scss/_mediaQueries.scss */
+  nav ul {
+    padding: 1.25em 2em 0 0; }
+
+  /* line 98, ../scss/_mediaQueries.scss */
+  .CCInfos {
+    width: 25em;
+    margin: 7.5em auto 3em auto; }
+
+  /* line 102, ../scss/_mediaQueries.scss */
+  #gmap {
+    background: #ccc;
+    height: 800px;
+    width: 75%;
+    float: left; }
+
+  /* line 108, ../scss/_mediaQueries.scss */
+  .refresh {
+    padding-left: 0.5em; } }
+@media only screen and (min-width: 1520px) {
+  /* line 114, ../scss/_mediaQueries.scss */
+  .bankInfos {
+    width: 25%;
+    float: left;
+    height: 800px;
+    overflow: hidden;
+    overflow-y: scroll; }
+  /* line 121, ../scss/_mediaQueries.scss */
+  .bankInfos ul li {
+    padding: 0.8em 0 0.8em 0; }
+
+  /* line 126, ../scss/_mediaQueries.scss */
+  #logo img {
+    margin: 2.25em auto 0 auto; }
+
+  /* line 129, ../scss/_mediaQueries.scss */
+  nav {
+    height: 8.5em; }
+  /* line 131, ../scss/_mediaQueries.scss */
+  nav ul {
+    padding: 2.25em 2em 0 0; }
+
+  /* line 135, ../scss/_mediaQueries.scss */
+  .CCInfos {
+    width: 27em;
+    margin: 9.5em auto 3em auto; }
+
+  /* line 139, ../scss/_mediaQueries.scss */
+  #gmap {
+    background: #ccc;
+    height: 800px;
+    width: 75%;
+    float: left; } }

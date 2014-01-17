@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cash-Cache</title>
+	<link rel="shortcut icon" href="../img/cash.ico" >
+	<link rel="stylesheet" href="../css/screen.css" />
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, user-scalable=false;">
+</head>
+<body>
+	<nav class="menu">
+		<div id="logo">
+			<a href="index.html"><img src="../img/CashCache.png" alt="Accueil du site"></a>
+		</div>
+		<ul>
+			<li><a href="about.html"><img src="../img/about.png" alt="logo menant à la page a propos" id="about"></a></li>
+			<li><a href="https://twitter.com/CashCacheApp" class="socials" title="Cash-Cache sur Twitter"><img src="../img/twitter.png" alt="logo menant à la page twitter" id="twitter"></a></li>
+			<li><a href="https://www.facebook.com/cashcacheapp" class="socials" title="Cash-Cache sur Facebook"><img src="../img/facebook.png" alt="logo menant à la page facebook" id="facebook"></a></li>
+		</ul>
+	</nav>
+	<div id="map">
+		<div id="gmap"></div>
+	</div>
+	<div class="bankInfos" style="z-index:1;">
+		<h1>Bienvenue sur Cash-Cache <span><a href="" class="refresh"><img src="../img/refresh.png" alt="Recharger la liste"></a></span></h1>
+		<h3 class="numberOfBanks">Chargement ...</h3>
+		<ul class="banques">
+		</ul>
+	</div>
+	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDHJ3p-sn1Y5tJGrzH9MF5cbR5sdsDmhfg&sensor=false"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

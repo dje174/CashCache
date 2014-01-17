@@ -1,0 +1,145 @@
+@media only screen and (min-width : 320px) and (max-width : 500px) {
+	nav{
+		height: 10em;
+		ul{
+			width: 13em;
+			margin: 0 auto;
+			padding-top: 5em;
+		}
+		
+	}
+	.bankInfos{
+		margin: 10em auto 0 auto;
+		width: 15em;
+		height: 11em;
+		overflow: hidden;
+		overflow-y: scroll;
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0;
+		h1{
+			font-size: 14px;
+			text-transform: uppercase;
+		}
+		h3{
+			font-size: 15px;
+		}
+	}
+	.CCInfos{
+		margin-top: 9em;
+		width: 100%;
+	}
+	#logo img{
+			margin: 1em auto 0 auto;
+	}
+	#gmap{
+		background: #ccc;
+		height: 500px;
+	}
+}
+
+@media only screen and (min-width : 500px) and (max-width : 750px) {
+	nav{
+		height: 6.5em;
+		ul{
+			padding: 1.25em 1em 0 0;
+		}
+	}
+	.bankInfos{
+		margin: 0 auto;
+		width: 40%;
+		float: left;
+		height: 600px;
+		overflow: hidden;
+		overflow-y: scroll;
+		top: 0; left: 0; bottom: 0; right: 0;
+		ul{
+			li{
+				padding: 0.4em 0 0.4em 0;
+			}
+		}
+	}
+	.CCInfos{
+		width: 25em;
+		margin: 7.5em auto 3em auto;
+	}
+	#logo img{
+		margin: 1.25em 0 0 0.5em;
+	}
+	#gmap{
+		background: #ccc;
+		height: 600px;
+		width: 60%;
+		float: left;
+	}
+}
+
+@media only screen and (min-width : 750px) and (max-width: 1500px){
+	.bankInfos{
+		width: 25%;
+		float: left;
+		height: 800px;
+		overflow: hidden;
+		overflow-y: scroll;
+		ul{
+			li{
+				padding-bottom: 0.2em;
+			}
+		}
+	}
+	#logo img{
+		margin: 1em auto 0 auto;
+	}
+	nav{
+		height: 6.5em;
+		ul{
+			padding: 1.25em 2em 0 0;
+		}
+	}
+	.CCInfos{
+		width: 25em;
+		margin: 7.5em auto 3em auto;
+	}
+	#gmap{
+		background: #ccc;
+		height: 800px;
+		width: 75%;
+		float: left;
+	}
+	.refresh{
+		padding-left: 0.5em;
+	}
+}
+
+@media only screen and (min-width: 1520px){
+	.bankInfos{
+		width: 25%;
+		float: left;
+		height: 800px;
+		overflow: hidden;
+		overflow-y: scroll;
+		ul{
+			li{
+				padding: 0.8em 0 0.8em 0;
+			}
+		}
+	}
+	#logo img{
+		margin: 2.25em auto 0 auto;
+	}
+	nav{
+		height: 8.5em;
+		ul{
+			padding: 2.25em 2em 0 0;
+		}
+	}
+	.CCInfos{
+		width: 27em;
+		margin: 9.5em auto 3em auto;
+	}
+	#gmap{
+		background: #ccc;
+		height: 800px;
+		width: 75%;
+		float: left;
+	}
+}
